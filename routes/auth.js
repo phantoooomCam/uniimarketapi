@@ -15,5 +15,5 @@ router.post('/register', registrarUsuario);
 router.post('/login', loginUsuario);
 router.get('/me', verificarAutenticacion, obtenerUsuarioAutenticado);
 router.get('/logout', logoutUsuario);
-// 👇 ESTO ES LO CRUCIAL
+
 module.exports = router;
