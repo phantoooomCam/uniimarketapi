@@ -13,11 +13,7 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
-// Rutas
-const authRoutes = require('./routes/auth');
-app.use('/api/auth', authRoutes);
-const productosRoutes = require('./routes/productos');
-app.use('/api/productos', productosRoutes);
+
 
 
 // Puerto
